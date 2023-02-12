@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />   
+    <title>CONTACT ME</title>
+</head>
+<body id="contact-body"> 
+  <div >           
+    <nav>
+        <ul id="nav-menu">
+            <li class="nav-content"><a href="index.html">Home</a></li>
+            <li class="nav-content"><a href="contact.html">Contact</a></li>
+            <li class="nav-content"><a href="register.html">Register</a></li>
+            <li class="nav-content"><a href="login.html">Login</a></li>
+            <li class="nav-content"><a href="calculator.html">Calculator</a></li>
+        </ul>
+    </nav>
+</div>
+  
+     <div id="contact-container">
+       <div>
+         <img src="./My-photo.jpg" alt="Photo of Mathida Duku" id="contact-image">
+       </div>
+        <form action="" method="post" class="contact-form">
+          <h1 id="contact-heading">CONTACT</h1>
+            <div>
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" class="form-input" required/>
+            </div>
+            <br>
+            <div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" class="form-input" required/>
+            </div>
+            <br>
+
+            <div>
+            <label for="name" class="form-label" >Message</label>
+            <textarea name="message" id="message" placeholder="Type your message here..." class="form-input" required></textarea>
+            </div>
+            
+            <br>
+            
+              <div>
+          <label for="priority" class="form-label" required>Priority</label>
+            <select class="form-input">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            </div>
+            <br>
+            
+          <div>
+            <button class="form-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+</html>

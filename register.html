@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REGISTER</title>
+</head>
+<body>
+    <div >           
+        <nav>
+            <ul id="nav-menu">
+                <li class="nav-content"><a href="index.html">Home</a></li>
+                <li class="nav-content"><a href="contact.html">Contact</a></li>
+                <li class="nav-content"><a href="register.html">Register</a></li>
+                <li class="nav-content"><a href="login.html">Login</a></li>
+                <li class="nav-content"><a href="calculator.html">Calculator</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form action="" method="post" class="contact-form">
+        <h1>REGISTRATION</h1>
+        <div>
+            <label for="first-name" class="form-label">First name</label>
+            <input type="text" name="first-name" id="first-name" class="form-input" placeholder="First" required>
+        </div>
+        <br>
+        <div>
+            <label for="last-name" class="form-label">Last name</label>
+            <input type="text" name="" id="" class="form-input" placeholder="Last" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" name="phone" id="phone" class="form-input" placeholder="Enter your phone number" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender" class="form-label" required>Gender</label>
+            <select class="form-input">
+             <option value="male">Male</option>         
+             <option value="female">Female</option>
+             <option value="non-binary">Non-binary</option>
+             <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="country" class="form-label">Country</label>
+            <input type="text" name="country" id="country" class="form-input" placeholder="Enter your country" required>
+        </div>
+        <br>
+        <div>
+            <label for="state" class="form-label">State/Province</label>
+            <input type="text" name="state" id="state" class="form-input" placeholder="Enter your state" required>
+        </div>
+        <br>
+        <div>
+            <label for="username" class="form-label">Username</label>
+            <input type="text" name="username" id="username" class="form-input" placeholder="Enter your username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" id="password" class="form-input" placeholder="Enter your password" required>
+        </div>
+        <br>
+        <div>
+            <label for="confirm-password" class="form-label">Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" class="form-input" placeholder="Confirm your password" required>
+        </div>
+        <br>
+            
+         <div>
+            <button class="form-button">Submit</button>
+          </div>
+    </form>   
+</body>
+</html>
